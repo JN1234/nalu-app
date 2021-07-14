@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Equipments</title>
+    <link rel="stylesheet" type="text/css" href=/css/newstyle.css>
+</head>
+<body>
+<div class="topnav">
+    <a > <img src="zesco.png" alt="Paris" width="50" height="50"></a>
+    <a th:href="@{/open_dashboard}">Home</a>
+    <a th:href="@{/issues}">Issues</a>
+    <a th:href="@{/equipments}">Equipments</a>
+    <a href="#">About Us</a>
+    <a th:href="@{/logout}">Logout</a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <a >     </a>
+    <p id="username">Welcome <b id="name">[[${#request.userPrincipal.principal.fullName}]] </b></p>
+</div>
+
+<div class="content">
+    
+    <div id="studentDetails">
+        <h2>SIN		:		<b>17112321</b></h2>
+        <h2>Name	:		<b>Nalucha M Maseli</b></h2>
+        <h2>Program	:		<b>Computer Engineering</b></h2>
+    </div>
+
+</div>
+
+</body>
+</html>
